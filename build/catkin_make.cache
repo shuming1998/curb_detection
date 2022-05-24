@@ -1,0 +1,2 @@
+curb_features_extract
+-DCATKIN_DEVEL_PREFIX=/home/cui/ROS_workspaces/ws_curb/devel -DCMAKE_INSTALL_PREFIX=/home/cui/ROS_workspaces/ws_curb/install -G Unix Makefiles

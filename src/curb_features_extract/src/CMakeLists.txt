@@ -1,0 +1,5 @@
+add_subdirectory(star_shaped)
+add_subdirectory(x_zero)
+add_subdirectory(z_zero)
+add_subdirectory(h_diff)
+add_subdirectory(node)

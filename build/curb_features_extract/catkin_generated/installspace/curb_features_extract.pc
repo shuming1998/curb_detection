@@ -1,0 +1,8 @@
+prefix=/home/cui/ROS_workspaces/ws_curb/install
+
+Name: curb_features_extract
+Description: Description of curb_features_extract
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: cv_bridge pcl_conversions pcl_ros roscpp rospy sensor_msgs std_msgs
