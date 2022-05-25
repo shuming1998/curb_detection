@@ -67,7 +67,7 @@ float max_h_diff(const std::vector<pcl::PointXYZIRT>& ring_data, int i, int wind
     float max_h = -FLT_MAX;
     for(int j = i; j < i + windowSize; ++j)
     {
-        if (ring_data[j].z != 0)
+        if (ring_data[j].z != 0)            /// 为什么z不能为0？
         {
             min_h = std::min(min_h, ring_data[j].z);
             max_h = std::max(max_h, ring_data[j].z);
