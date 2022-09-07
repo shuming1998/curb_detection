@@ -1,0 +1,3 @@
+*.cmake linguist-language=cplusplus
+*.make linguist-language=cplusplus
+*.cache linguist-language=cplusplus
