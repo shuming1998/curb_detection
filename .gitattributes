@@ -1,3 +1,4 @@
 *.cmake linguist-language=C++
 *.make linguist-language=C++
 *.cache linguist-language=C++
+Makefile linguist-language=C++
